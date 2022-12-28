@@ -1,0 +1,21 @@
+version: 1
+
+
+# Communication server info
+commserver:
+  IP: 192.168.1.10
+  Port: 8003
+
+# client info
+client:
+  # ID of this client
+  ID: B5HJU9QF0SP3WI8MNX4A
+  # Interval (in seconds) to check in with commserver
+  Interval: 60
+
+# list of files/folders to securely delete
+nukelist:
+  - B:\DeleteMe1\*.*
+  - B:\DeleteMe2\goodbye.txt
+  - B:\DeleteMe3\Delete 3.txt
+  - B:\Delete Me 4\A subfolder\*.*
